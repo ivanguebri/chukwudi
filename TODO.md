@@ -1,0 +1,3 @@
+# Chukwudi
+
+- [ ] create hero component
