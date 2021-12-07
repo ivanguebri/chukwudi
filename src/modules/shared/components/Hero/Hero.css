@@ -1,0 +1,56 @@
+.hero-section {
+  background-color: #fff7eb;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5rem;
+  border-radius: 1.5em;
+}
+
+.hero-section > * {
+  flex-grow: 1;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.hero-content-text-big {
+  color: #ff5f21;
+  font-size: 1.5em;
+  margin: -2em 0 0.3em 0;
+}
+.hero-content-text-big > img {
+  margin: 0 0 -0.2em 0.5em;
+}
+
+.hero-content-text-small {
+  color: #9c958c;
+  font-size: 0.73em;
+}
+
+.hero-prompt {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.hero-prompt-link {
+  color: #f96932;
+  font-size: 0.8em;
+  margin: 0 0 3em 0;
+  text-decoration: none;
+}
+
+.hero-prompt-arrow {
+  width: 1em;
+  margin: 0 0 -0.2em 0.5em;
+}
+
+/* allow responsive resizing */
+img {
+  max-width: 100%;
+  height: auto;
+}
