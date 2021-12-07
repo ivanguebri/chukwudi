@@ -1,11 +1,11 @@
 import "./App.css";
 
-import Hero from "./modules/shared/components/Hero";
+import Category from "./modules/shared/components/Category";
 
 function App() {
   return (
     <div className="App">
-      <Hero></Hero>
+      <Category iconPath="pizza-category.svg" iconText="Pizza" />
     </div>
   );
 }
