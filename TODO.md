@@ -1,5 +1,5 @@
 # Chukwudi
 
-- [ ] Create hero component
+- [ ] Hero component
   - [x] Set basic layout
   - [ ] Add responsivity
