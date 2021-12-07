@@ -1,11 +1,11 @@
-import Button from "@mui/material/Button";
 import "./App.css";
-
+import ProductCard from "./modules/shared/components/ProductCard";
+import ProductCardMedia from "./modules/shared/components/ProductCardMedia";
 
 function App() {
   return (
     <div className="App">
-      <Button variant="contained">Hello World</Button>
+      <ProductCardMedia deliveryRange="25-30" imageName="fruit-salad.jpeg" />
     </div>
   );
 }

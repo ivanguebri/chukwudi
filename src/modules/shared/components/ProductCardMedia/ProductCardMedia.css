@@ -1,0 +1,25 @@
+.media-container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1em;
+  font-size: 1rem;
+  height: 8em;
+  position: relative;
+}
+
+.media-delivery-time {
+  background-color: #f8f8f8;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  bottom: -1px;
+  left: -1px;
+  margin: 0;
+  padding: 0.7em;
+  font-size: 0.8em;
+  position: absolute;
+}
+
+.media-delivery-time > span {
+  font-size: 1.2em;
+  font-weight: 1.2em;
+}
