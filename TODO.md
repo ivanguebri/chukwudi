@@ -19,6 +19,8 @@
 
 - [ ] HomePage component
 
+  - [x] Burger svg component
+
 - [x] Install MUI UI library
 
 - [x] Install React Router
