@@ -1,0 +1,35 @@
+.delivery-select-container {
+  background-color: #ff6223;
+  border-radius: 2em;
+  color: white;
+  display: inline-block;
+  font-size: 1.5rem;
+  padding: 0.4em 1em;
+}
+.delivery-select-container:hover {
+  cursor: pointer;
+}
+
+.delivery-select-clock {
+  margin: 0 0.5em 0 0;
+  width: 0.7em;
+}
+
+.delivery-select-container > span:first-of-type {
+  display: inline-block;
+  margin: 0 0.5em 0 0;
+}
+
+.delivery-select-container > span:nth-of-type(2) {
+  font-weight: bold;
+  margin: 0 0.9em 0 0;
+}
+
+.delivery-select-container > span {
+  font-size: 0.7em;
+}
+
+.delivery-select-chevron {
+  transform: rotate(90deg);
+  width: 0.5em;
+}

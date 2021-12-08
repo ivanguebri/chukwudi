@@ -21,7 +21,7 @@
 
   - [x] Burger svg component
   
-  - [ ] DeliverySelect component
+  - [x] DeliverySelect component
 
     - [x] Clock svg component
 
