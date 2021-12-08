@@ -1,9 +1,11 @@
 import "./ProductCardContent.css";
 
+import { ProductCategory } from "../../types";
+
 import RatingStar from "../RatingStar";
 
 type ProductCardContentProps = {
-  productCategories: string[];
+  productCategories: ProductCategory[];
   productName: string;
   productPrice: number;
   productRating: number;
@@ -23,14 +25,10 @@ const ProductCardContent = ({
           <RatingStar className="rating-star" /> {productRating}
         </span>
         {productCategories.map((productCategory) => (
-          <>
-            <span className="product-category" key={productCategory}>
-              {productCategory}
-            </span>
-            <span className="product-category product-category-separator">
-              •
-            </span>
-          </>
+          <p className="product-category" key={productCategory.id}>
+            <span>{productCategory.name}</span>
+            <span className="product-category-separator">•</span>
+          </p>
         ))}
         <span className="product-price">${productPrice}</span>
       </div>

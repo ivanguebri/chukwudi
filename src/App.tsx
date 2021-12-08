@@ -1,11 +1,16 @@
 import "./App.css";
-import ProductCardContent from "./modules/shared/components/ProductCardContent";
+import ProductCard from "./modules/shared/components/ProductCard";
 
 function App() {
   return (
     <div className="App">
-      <ProductCardContent
-        productCategories={["Deli", "Bagels"]}
+      <ProductCard
+        deliveryRange="25-40"
+        imageName="fruit-salad.jpeg"
+        productCategories={[
+          { id: 1, name: "Deli" },
+          { id: 2, name: "Bagels" },
+        ]}
         productName="Bagel Story"
         productPrice={2.5}
         productRating={4.7}
