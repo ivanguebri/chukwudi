@@ -1,11 +1,15 @@
 import "./App.css";
-import ProductCard from "./modules/shared/components/ProductCard";
-import ProductCardMedia from "./modules/shared/components/ProductCardMedia";
+import ProductCardContent from "./modules/shared/components/ProductCardContent";
 
 function App() {
   return (
     <div className="App">
-      <ProductCardMedia deliveryRange="25-30" imageName="fruit-salad.jpeg" />
+      <ProductCardContent
+        productCategories={["Deli", "Bagels"]}
+        productName="Bagel Story"
+        productPrice={2.5}
+        productRating={4.7}
+      />
     </div>
   );
 }

@@ -1,0 +1,32 @@
+.product-card-content-container {
+  font-size: 1.5rem;
+}
+
+.product-card-content-container > h3 {
+  font-size: 0.8em;
+  font-weight: normal;
+  margin: 0 0 0.5em 0;
+}
+
+.product-info {
+  font-size: 0.5em;
+}
+
+.product-rating {
+  font-weight: 400;
+  margin: 0 1em 0 0;
+}
+
+.rating-star {
+  width: 1em;
+  height: auto;
+}
+
+.product-category-separator {
+  margin: 0 0.4em 0 0.4em;
+}
+
+.product-category,
+.product-price {
+  color: #9d9d9d;
+}

@@ -13,6 +13,8 @@
 
   - [x] ProductCardMedia component
 
+  - [x] ProductCardContent component
+
   - [ ] Set basic layout
 
 - [x] Install MUI UI library

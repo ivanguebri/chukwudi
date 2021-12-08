@@ -1,19 +1,15 @@
-import Card from "@mui/material/Card";
-import CardMedia from "@mui/material/CardMedia";
+import ProductCardMedia from "../ProductCardMedia";
 
 type ProductCardProps = {
+  deliveryRange: string;
   imageName: string;
 };
 
-const CustomCardMedia = () => {
-  return <p>Hello!</p>;
-};
-
-const ProductCard = ({ imageName }: ProductCardProps) => {
+const ProductCard = ({ deliveryRange, imageName }: ProductCardProps) => {
   return (
-    <Card>
-      <CardMedia component={CustomCardMedia} />
-    </Card>
+    <section>
+      <ProductCardMedia deliveryRange={deliveryRange} imageName={imageName} />
+    </section>
   );
 };
 export default ProductCard;
