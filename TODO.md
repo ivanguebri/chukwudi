@@ -25,6 +25,8 @@
 
     - [x] Clock svg component
 
+    - [x] Chevron svg component
+
 - [x] Install MUI UI library
 
 - [x] Install React Router
