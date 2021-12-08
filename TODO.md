@@ -31,6 +31,12 @@
 
     - [x] Basic setup
 
+  - [ ] CategoriesContainer component
+
+    - [ ] CategoriesComponent component
+
 - [x] Install MUI UI library
 
 - [x] Install React Router
+
+- [x] Install firebase SDK
