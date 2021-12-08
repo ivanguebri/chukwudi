@@ -35,6 +35,8 @@
 
     - [ ] CategoriesComponent component
 
+    - [x] Get categories info from firebase
+
 - [x] Install MUI UI library
 
 - [x] Install React Router
