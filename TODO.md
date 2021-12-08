@@ -26,6 +26,10 @@
     - [x] Clock svg component
 
     - [x] Chevron svg component
+  
+  - [ ] DeliveryContainer component (handles the DeliverySelect)
+
+    - [x] Basic setup
 
 - [x] Install MUI UI library
 
