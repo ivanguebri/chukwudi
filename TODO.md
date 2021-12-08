@@ -20,6 +20,10 @@
 - [ ] HomePage component
 
   - [x] Burger svg component
+  
+  - [ ] DeliverySelect component
+
+    - [x] Clock svg component
 
 - [x] Install MUI UI library
 
