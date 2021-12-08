@@ -17,4 +17,8 @@
 
   - [x] Set basic layout
 
+- [ ] HomePage component
+
 - [x] Install MUI UI library
+
+- [x] Install React Router
