@@ -1,3 +1,5 @@
+import "./ProductCard.css";
+
 import { ProductCategory } from "../../types";
 
 import ProductCardContent from "../ProductCardContent";
@@ -22,7 +24,9 @@ const ProductCard = ({
 }: ProductCardProps) => {
   return (
     <section>
-      <ProductCardMedia deliveryRange={deliveryRange} imageName={imageName} />
+      <div className="product-card-media-container">
+        <ProductCardMedia deliveryRange={deliveryRange} imageName={imageName} />
+      </div>
       <ProductCardContent
         productCategories={productCategories}
         productName={productName}

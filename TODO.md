@@ -15,6 +15,6 @@
 
   - [x] ProductCardContent component
 
-  - [ ] Set basic layout
+  - [x] Set basic layout
 
 - [x] Install MUI UI library
