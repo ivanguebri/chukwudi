@@ -1,0 +1,25 @@
+.home-page-container {
+  font-size: 1.5rem;
+  padding: 3em;
+}
+
+.hero-container {
+  margin: 0 0 3em 0;
+}
+
+.products-header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 0 2.5em 0;
+}
+
+.products-header {
+  font-size: 2em;
+  margin: 0;
+}
+
+.burger {
+  width: 0.8em;
+  margin: 0 0 -0.05em 0.3em;
+}

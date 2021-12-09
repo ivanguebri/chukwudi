@@ -1,22 +1,14 @@
 import "./App.css";
-import ProductCard from "./modules/shared/components/ProductCard";
 
-function App() {
+import { Route, Routes } from "react-router";
+import HomePage from "./modules/home/pages/HomePage";
+
+const App = () => {
   return (
-    <div className="App">
-      <ProductCard
-        deliveryRange="25-40"
-        imageName="fruit-salad.jpeg"
-        productCategories={[
-          { id: 1, name: "Deli" },
-          { id: 2, name: "Bagels" },
-        ]}
-        productName="Bagel Story"
-        productPrice={2.5}
-        productRating={4.7}
-      />
-    </div>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+    </Routes>
   );
-}
+};
 
 export default App;

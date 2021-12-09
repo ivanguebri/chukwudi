@@ -33,9 +33,11 @@
 
   - [ ] CategoriesContainer component
 
-    - [ ] CategoriesComponent component
+    - [x] CategoriesComponent component
 
     - [x] Get categories info from firebase
+
+    - [x] Keep selected category in local state (it will change)
 
 - [x] Install MUI UI library
 
