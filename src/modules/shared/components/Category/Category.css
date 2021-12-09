@@ -12,6 +12,9 @@
 .category-container.selected {
   background-color: #ffd644;
 }
+.category-container:hover {
+  cursor: pointer;
+}
 
 .category-icon-container {
   background-color: #fff;
