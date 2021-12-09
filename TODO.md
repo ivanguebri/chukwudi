@@ -43,6 +43,10 @@
 
     - [x] Set the selected category by dispatching to the store
 
+  - [ ] ProductsContainer component
+  
+    - [x] Get products info from firebase
+
 - [x] Install MUI UI library
 
 - [x] Install React Router
