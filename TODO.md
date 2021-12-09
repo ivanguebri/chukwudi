@@ -39,6 +39,10 @@
 
     - [x] Keep selected category in local state (it will change)
 
+    - [x] Fetch current category from the store
+
+    - [x] Set the selected category by dispatching to the store
+
 - [x] Install MUI UI library
 
 - [x] Install React Router
