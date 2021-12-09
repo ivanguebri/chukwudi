@@ -3,11 +3,12 @@ import "./Category.css";
 type CategoryProps = {
   iconPath: string;
   iconText: string;
+  isSelected: boolean;
 };
 
-const Category = ({ iconPath, iconText }: CategoryProps) => {
+const Category = ({ iconPath, iconText, isSelected }: CategoryProps) => {
   return (
-    <section className="category-container">
+    <section className={`category-container ${isSelected ? "selected" : ""}`}>
       <div className="category-icon-container">
         <img
           src={`${process.env.PUBLIC_URL}/assets/icons/${iconPath}`}
