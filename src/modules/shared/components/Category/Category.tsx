@@ -1,21 +1,29 @@
+import { Category as CategoryType } from "../../types";
 import "./Category.css";
 
 type CategoryProps = {
-  iconPath: string;
-  iconText: string;
+  category: CategoryType;
+  handleSelectCategory: (selectedCategory: CategoryType) => void;
   isSelected: boolean;
 };
 
-const Category = ({ iconPath, iconText, isSelected }: CategoryProps) => {
+const Category = ({
+  category,
+  handleSelectCategory,
+  isSelected,
+}: CategoryProps) => {
   return (
-    <section className={`category-container ${isSelected ? "selected" : ""}`}>
+    <section
+      className={`category-container ${isSelected ? "selected" : ""}`}
+      onClick={() => handleSelectCategory(category)}
+    >
       <div className="category-icon-container">
         <img
-          src={`${process.env.PUBLIC_URL}/assets/icons/${iconPath}`}
+          src={`${process.env.PUBLIC_URL}/assets/icons/${category.icon}`}
           alt="Food type icon"
         />
       </div>
-      <span className="category-text">{iconText}</span>
+      <span className="category-text">{category.name}</span>
     </section>
   );
 };
