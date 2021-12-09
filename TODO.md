@@ -44,3 +44,5 @@
 - [x] Install React Router
 
 - [x] Install firebase SDK
+
+- [x] Install redux
