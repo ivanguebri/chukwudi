@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 import { getCategories } from "../../../shared/services/firestore";
 
@@ -32,7 +32,7 @@ const CategoriesContainer = () => {
     dispatch(setCurrentCategory(selectedCategory));
   };
 
-  useEffect(() => {
+  React.useEffect(() => {
     fetchCategories();
   }, []);
 

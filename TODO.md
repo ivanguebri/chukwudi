@@ -20,13 +20,13 @@
 - [ ] HomePage component
 
   - [x] Burger svg component
-  
+
   - [x] DeliverySelect component
 
     - [x] Clock svg component
 
     - [x] Chevron svg component
-  
+
   - [ ] DeliveryContainer component (handles the DeliverySelect)
 
     - [x] Basic setup
@@ -44,8 +44,10 @@
     - [x] Set the selected category by dispatching to the store
 
   - [ ] ProductsContainer component
-  
+
     - [x] Get products info from firebase
+
+    - [x] Read products info into local state
 
 - [x] Install MUI UI library
 
